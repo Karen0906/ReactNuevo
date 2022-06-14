@@ -5,6 +5,9 @@
 * [Visión del producto](#vision-del-producto)
    * [Objetivos del proyecto](#objetivos-del-proyecto)
    * [Funcionalidades principales](#funcionalidades-principales)
+      * [Agente](#agente)
+      * [Supervisor](#supervisor)
+      * [Manager](#manager)
 * [Pre-requisitos](#pre-requisitos)
 * [Descargar proyecto](#descargar-proyecto)
 ## Visión del producto
@@ -33,3 +36,4 @@ git clone git@github.com:TC3005B-562/azul-backend.git
 3. Abrir el **folder** azul-backend en IntelliJ.
 4. Ir a la carpeta src → main → java → com.itesm.AmazonRSH.Equipo4DB → Equipo4DbApplication.
 5. Click derecho **run**.
+
