@@ -65,12 +65,21 @@ git clone git@github.com:TC3005B-562/azul-backend.git
 | Library | Description |
 | ------------- | ------------- |
 | spring-boot-starter-parent  | Parent pom providing dependency and plugin management for applications built with Maven |
-| spring-boot-starter-web  | Starter for building web, including RESTful, applications using Spring MVC. Uses Tomcat as the default embedded container.
-Used in back for expose endpoints database connection with front |
-| aws-java-sdk-core  | The AWS SDK for Java - Core module holds the classes that are used by the individual service clients to interact with Amazon Web Services. Users need to depend on aws-java-sdk artifact for accessing individual client classes. 
-For database connectivity. |
+| spring-boot-starter-web  | Starter for building web, including RESTful, applications using Spring MVC. Uses Tomcat as the default embedded container. Used in back for expose endpoints database connection with front |
+| aws-java-sdk-core  | The AWS SDK for Java - Core module holds the classes that are used by the individual service clients to interact with Amazon Web Services. Users need to depend on aws-java-sdk artifact for accessing individual client classes. For database connectivity. |
 | aws-java-sdk-dynamodb  | The AWS Java SDK for Amazon DynamoDB module holds the client classes that are used for communicating with Amazon DynamoDB Service. |
 | spring-data-dynamodb  | The primary goal of the Spring Data project is to make it easier to build Spring-powered applications that use data access technologies. This module deals with enhanced support for a data access layer built on AWS DynamoDB. |
 | dynamodb-enhanced  | Used to manipulate models form the database, do queries as crud (create, read, update, delete) |
+#### Used software versions
+- IntelliJ IDEA 2021.3.3 (Community Edition)
+- Docker 4.9.0
+- Java Corretto-17.0.2.8.1
+- NoSQL Workbench Versión 3.2.2
+- Springboot v2.6.7
+- Postman Version 9.20.3
+#### Services’ configurations
+- Springboot: port 8090
+- DynamoDB: server east-1
+- Jenkins: port 8080
 ### Backend
-hola
+
