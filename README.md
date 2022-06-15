@@ -29,58 +29,74 @@ What we are looking for with this project is to give organizations a better insi
 ### Agent
 ####  Landing page
 All employees will have access to a landing page once they log into the system. Agents will see a button that connects them to Amazon Connect CPP in order to be ready to receive incoming calls.
+
 ![agent_homeview](https://user-images.githubusercontent.com/53417886/173723272-66268ea8-3906-48b4-9228-551c2aaae729.gif)
 ####  Survey
 Once an agent has picked up the call and finished working on a ticket, if the manager has set it up this way, they will be presented with a survey regarding the call quality, client interaction or any important metric the manager has decided. Once the survey has been answered, the video will be stored in s3 and the survey answers and video’s metadata will be stored.
 #### Shared videos
 The agent can see all the videos that were shared to them, and filter them by date or tags.
+
 ![agent_videosview](https://user-images.githubusercontent.com/53417886/173723299-2950f3e7-5727-4f3f-84fe-7acb5a04618e.gif)
 ### Manager
 ####  Agent’s visualization
 The manager has the option to view all the agents registered in the system, and filter them by name or employee ID.
+
 ![manager_searchagents](https://user-images.githubusercontent.com/53417886/173723353-eec5711b-75e0-439e-8fe1-8331305a44f5.gif)
 ####  Create new agents
 The manager can add new agents to the system.
+
 ![manager_crearagente](https://user-images.githubusercontent.com/53417886/173723378-f1703aea-5ca3-4d0c-91c9-dc1896749a00.gif)
 ####  Assign agents to supervisor
 The manager can assign agents to a supervisor and to a group.
+
 ![manager_asignaragente](https://user-images.githubusercontent.com/53417886/173723400-496d7d28-05cf-4853-a813-a39991d67de7.gif)
 ####  Update/delete of agents
 The manager can change the information of the agent, such as name, password or email. Also, he can delete them from the system.
+
 ![manager_editagents](https://user-images.githubusercontent.com/53417886/173723421-dbbfbdb7-94b2-462d-ad06-d58990a89f4f.gif)
 ![manager_deleteagent](https://user-images.githubusercontent.com/53417886/173723433-92deae12-c171-4120-b246-7e415a5323f8.gif)
 ####  Supervisor’s visualization
 The manager can see all supervisors and search them by name or employee ID.
+
 ![manager_versupervisores](https://user-images.githubusercontent.com/53417886/173723464-9be77bf4-ab9f-40b0-a0d6-256d26d2e6f1.gif)
 #### Create new supervisors
 The manager can add new supervisors to the system.
+
 ![manager_agregarsupervisor](https://user-images.githubusercontent.com/53417886/173723481-69433907-1627-4287-8adb-52ebae55b068.gif)
 #### Update/delete supervisors
 The manager can change the information of the supervisors, such as name, password or email. Also, he can delete them from the system.
+
 ![manager_eliminarsupervisor](https://user-images.githubusercontent.com/53417886/173723509-66bb2ff9-b5e1-4ebe-a428-a5c8a47d8001.gif)
 ![manager_editarsupervisor](https://user-images.githubusercontent.com/53417886/173723526-fc1bdfb7-415e-4a4d-ad25-e1b7cc4081d9.gif)
 #### Video’s visualization
 The manager can see all the videos that were created by the agents, and filter them by date or tags.
+
 ![manager_vervideos](https://user-images.githubusercontent.com/53417886/173723581-2ad73ac3-cf43-457a-b40d-3ae553c6d21a.gif)
 ![manager_filtradodevideostags](https://user-images.githubusercontent.com/53417886/173723596-20bc6860-4370-4aba-8cc2-fda0a1ae33de.gif)
 #### Change Settings
 The manager can change the minimum amount of time for a video to be saved, and the questions and answers that will need to be answered by the agents at the end of the call. 
+
 ![manager_settings](https://user-images.githubusercontent.com/53417886/173723650-a12ce6a0-ec54-4e26-b022-b58e49617d6c.gif)
 ### Supervisor
 #### Agent’s visualization
 The supervisor can see all the agents that were assigned to him and can be filtered by name or employee ID.
+
 ![supervisor_veragentes](https://user-images.githubusercontent.com/53417886/173723690-31590bbc-4287-4228-9a97-0cf42dafd80a.gif)
 #### Agent’s graphs visualization
 The supervisor can see the individual graphs of the agents to see their performance. Also, the information of the agent can be filtered by a date range.
+
 ![supervisor_graphagents](https://user-images.githubusercontent.com/53417886/173723711-b84499ee-f3cd-4d79-aaf5-ad4292965bd2.gif)
 #### Video’s visualization
 The supervisor can see all the videos that were made by his agents, and filter them by date or tags.
+
 ![supervisor_vervideos](https://user-images.githubusercontent.com/53417886/173723729-71cd5f5b-b8fc-4347-aefa-690371695ada.gif)
 #### Video’s update
 The supervisor can change the tags that the video contains.
+
 ![supervisor_editarvideo](https://user-images.githubusercontent.com/53417886/173723743-162cc010-08f6-4168-8108-af6ba30e1693.gif)
 #### Overall graphs
 The supervisor can see global graphs from the data collected from his agents, and can be filtered by a date range.
+
 ![supervisor_overallgraphics](https://user-images.githubusercontent.com/53417886/173723756-2a3fd5b4-513b-40b4-8ab6-17f0b18e6bb5.gif)
 ## Pre requirements
 - Docker
