@@ -11,6 +11,7 @@
    * [Manager](#manager)
 * [Pre requirements](#pre-requirements)
 * [Download project](#download-project)
+* [To deploy](#to-deploy)
 * [Techdeck](#techdeck)
    * [Database](#database)
    * [Backend](#backend)
@@ -159,3 +160,4 @@ In order to deploy an new functionality for the system the next steps must be fo
 - ECS: Used to deploy the backend and database containers on EC2.
 - EC2: It is used to deploy the application.
 - S3: It is used to store the videos.
+
