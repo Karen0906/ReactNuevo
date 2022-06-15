@@ -1,6 +1,7 @@
 ## Amazon Recording System Helper
 > Development of a platform that records the voice and screen of call center agents with a video storage that supervisors and administrators can access.
 > About the project [here](https://drive.google.com/file/d/1IXOJk660n73o6-zI0VxidVyq16ES7kq3/view?usp=sharing).
+
 ![logo](https://user-images.githubusercontent.com/53417886/173723215-1efdc400-1517-4cf1-97f8-c05ebd6b9709.gif)
 ## Table of Contents
 * [Product vision](#product-vision)
