@@ -24,59 +24,59 @@ What we are looking for with this project is to give organizations a better insi
 | Faster training  | The data bank of previous recordings will be able to serve as training material on realistic sceneries, aiming for a faster and more realistic training.  |
 ## Main functionalities
 ### Agent
-####Landing page
+####  Landing page
 All employees will have access to a landing page once they log into the system. Agents will see a button that connects them to Amazon Connect CPP in order to be ready to receive incoming calls.
 ![Alt Text](https://drive.google.com/file/d/1bdW_rolplCwJg-AZWNWHt51m1atvmQE0/view?usp=sharing)
-####Survey
+####  Survey
 Once an agent has picked up the call and finished working on a ticket, if the manager has set it up this way, they will be presented with a survey regarding the call quality, client interaction or any important metric the manager has decided. Once the survey has been answered, the video will be stored in s3 and the survey answers and video’s metadata will be stored.
 #### Shared videos
 The agent can see all the videos that were shared to them, and filter them by date or tags.
 ![Alt Text](https://drive.google.com/file/d/1xWaGyfzkf_fJYYBzzxrZusLHoo4Vzn9S/view?usp=sharing)
 ### Manager
-####Agent’s visualization
+#### Agent’s visualization
 The manager has the option to view all the agents registered in the system, and filter them by name or employee ID.
 ![Alt Text](https://drive.google.com/file/d/1qUY2tPgFA4euv9c_8Tl91lXLVtdrxjVp/view?usp=sharing)
-####Create new agents
+#### Create new agents
 The manager can add new agents to the system.
 ![Alt Text](https://drive.google.com/file/d/1QAPpSFZOfrmx4XUh5Rk6W6TH0px4sFCa/view?usp=sharing)
-####Assign agents to supervisor
+#### Assign agents to supervisor
 The manager can assign agents to a supervisor and to a group.
 ![Alt Text](https://drive.google.com/file/d/1QAPpSFZOfrmx4XUh5Rk6W6TH0px4sFCa/view?usp=sharing)
-####Update/delete of agents
+#### Update/delete of agents
 The manager can change the information of the agent, such as name, password or email. Also, he can delete them from the system.
 ![Alt Text](https://drive.google.com/file/d/1ESKW3Vg8RRlahOX04pOLCmf1YnCiAF-P/view?usp=sharing)
 ![Alt Text](https://drive.google.com/file/d/14h4PN824A7sXcrtUQEQCZAnKyNI6T5ia/view?usp=sharing)
-####Supervisor’s visualization
+#### Supervisor’s visualization
 The manager can see all supervisors and search them by name or employee ID.
 ![Alt Text](https://drive.google.com/file/d/1MgiKgQ9CuOb4KGjnZHuG8uvEZvvXYzWH/view?usp=sharing)
-####Create new supervisors
+#### Create new supervisors
 The manager can add new supervisors to the system.
 ![Alt Text](https://drive.google.com/file/d/1YIpQuk1PngiVDWvouCxcsOL0qbUUljIU/view?usp=sharing)
-####Update/delete supervisors
+#### Update/delete supervisors
 The manager can change the information of the supervisors, such as name, password or email. Also, he can delete them from the system.
 ![Alt Text](https://drive.google.com/file/d/1vSDQMqkqLa8w3hT8NoPIvN3RiH3Vk6XB/view?usp=sharing)
 ![Alt Text](https://drive.google.com/file/d/1tO4vL4eiPrJx8egk6QxloBnxbmmjcdMC/view?usp=sharing)
-####Video’s visualization
+#### Video’s visualization
 The manager can see all the videos that were created by the agents, and filter them by date or tags.
 ![Alt Text](https://drive.google.com/file/d/12ntQ9LGr_dI9uvgRfpq2gnbJm-F_Ts3v/view?usp=sharing)
 ![Alt Text](https://drive.google.com/file/d/1iXYz5_H620DMKMuj18xMqmKEaOdWbs1p/view?usp=sharing)
-####Change Settings
+#### Change Settings
 The manager can change the minimum amount of time for a video to be saved, and the questions and answers that will need to be answered by the agents at the end of the call. 
 ![Alt Text](https://drive.google.com/file/d/1PFAiy4xhWEPKmHmRlsLYhtW66tWla7lb/view?usp=sharing)
 ### Supervisor
-####Agent’s visualization
+#### Agent’s visualization
 The supervisor can see all the agents that were assigned to him and can be filtered by name or employee ID.
 ![Alt Text](https://drive.google.com/file/d/1SX9OUZbtXHhFuZ85zsd1VsTY40kiDz2n/view?usp=sharing)
-####Agent’s graphs visualization
+#### Agent’s graphs visualization
 The supervisor can see the individual graphs of the agents to see their performance. Also, the information of the agent can be filtered by a date range.
 ![Alt Text](https://drive.google.com/file/d/1ZvRzliT4zk2fQ7_gbhWtdRGTeMyHO17d/view?usp=sharing)
-####Video’s visualization
+#### Video’s visualization
 The supervisor can see all the videos that were made by his agents, and filter them by date or tags.
 ![Alt Text](https://drive.google.com/file/d/1AX1Zw5VX5pA90RwdWB14I-1Q1PcgKVRe/view?usp=sharing)
-####Video’s update
+#### Video’s update
 The supervisor can change the tags that the video contains.
 ![Alt Text](https://drive.google.com/file/d/1DwX4v5VfMBEFZIZ8SUdtezIp2TwbPqqq/view?usp=sharing)
-####Overall graphs
+#### Overall graphs
 The supervisor can see global graphs from the data collected from his agents, and can be filtered by a date range. 
 ![Alt Text](https://drive.google.com/file/d/1HwASStEuGH9rtpCg48xa4eVCEG7ERFr7/view?usp=sharing)
 ## Pre requirements
