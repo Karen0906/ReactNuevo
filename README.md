@@ -26,7 +26,7 @@ What we are looking for with this project is to give organizations a better insi
 ### Agent
 ####  Landing page
 All employees will have access to a landing page once they log into the system. Agents will see a button that connects them to Amazon Connect CPP in order to be ready to receive incoming calls.
-https://user-images.githubusercontent.com/53417886/173719908-f1d21e7e-2076-4b00-9231-b3d34e38ad73.mp4
+![image](![agent_homeview_](https://user-images.githubusercontent.com/53417886/173720636-d81615a0-a9d3-48fa-8c03-d1261ecda4c5.gif))
 ####  Survey
 Once an agent has picked up the call and finished working on a ticket, if the manager has set it up this way, they will be presented with a survey regarding the call quality, client interaction or any important metric the manager has decided. Once the survey has been answered, the video will be stored in s3 and the survey answers and video’s metadata will be stored.
 #### Shared videos
